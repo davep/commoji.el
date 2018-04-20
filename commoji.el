@@ -87,7 +87,7 @@ Completions come from `commoji-emoji'."
   (when commit-type
     (let ((emoji (assoc commit-type commoji-emoji)))
       (when emoji
-        (insert (format ":%s:" (cdr emoji)))))))
+        (insert (format ":%s: " (cdr emoji)))))))
 
 (provide 'commoji)
 
