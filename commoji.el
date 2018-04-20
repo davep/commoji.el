@@ -83,7 +83,7 @@ COMMIT-TYPE is the description of the commit type to work off.
 Completions come from `commoji-emoji'."
   (interactive
    (list
-    (completing-read "Commit type: " commoji-emoji nil t)))
+    (ido-completing-read "Commit type: " (mapcar #'car commoji-emoji) nil t)))
   (when commit-type
     (let ((emoji (assoc commit-type commoji-emoji)))
       (when emoji
