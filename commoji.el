@@ -74,6 +74,7 @@
 
 Based on https://gist.github.com/parmentf/035de27d6ed1dce0b36a")
 
+;;;###autoload
 (defun commoji (commit-type)
   "Insert a commit message emoji.
 
