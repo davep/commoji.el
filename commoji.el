@@ -57,7 +57,7 @@
     ("Fixing on MacOS"            . apple)
     ("Fixing on Linux"            . penguin)
     ("Fixing on Windows"          . checkered_flag)
-    ("Work in progress"           . construction:)
+    ("Work in progress"           . construction)
     ("Adding CI build system"     . construction_worker)
     ("Analytics or tracking code" . chart_with_upwards_trend)
     ("Removing a dependency"      . heavy_minus_sign)
