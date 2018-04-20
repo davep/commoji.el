@@ -84,7 +84,8 @@ COMMIT-TYPE is the description of the commit type to work off."
     (completing-read "Commit type: " commoji-emoji nil t)))
   (when commit-type
     (let ((emoji (assoc commit-type commoji-emoji)))
-      (insert (format ":%s:" (cdr emoji))))))
+      (when emoji
+        (insert (format ":%s:" (cdr emoji)))))))
 
 (provide 'commoji)
 
