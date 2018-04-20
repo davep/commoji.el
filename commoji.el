@@ -78,7 +78,9 @@ Based on https://gist.github.com/parmentf/035de27d6ed1dce0b36a")
 (defun commoji (commit-type)
   "Insert a commit message emoji.
 
-COMMIT-TYPE is the description of the commit type to work off."
+COMMIT-TYPE is the description of the commit type to work off.
+
+Completions come from `commoji-emoji'."
   (interactive
    (list
     (completing-read "Commit type: " commoji-emoji nil t)))
