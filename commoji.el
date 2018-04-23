@@ -64,6 +64,7 @@
     ("Adding a dependency"        . heavy_plus_sign)
     ("Docker"                     . whale)
     ("Configuration files"        . wrench)
+    ("Build system"               . wrench)
     ("Merging branches"           . twisted_rightwards_arrows)
     ("Bad code / need improv."    . hankey)
     ("Reverting changes"          . rewind)
