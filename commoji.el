@@ -43,6 +43,7 @@
     ("Adding a test"              . white_check_mark)
     ("General update"             . zap)
     ("Improve format/structure"   . art)
+    ("Code tidying"               . art)
     ("Refactor code"              . hammer)
     ("Removing code/files"        . fire)
     ("Continuous Integration"     . green_heart)
