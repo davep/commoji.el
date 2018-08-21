@@ -41,6 +41,7 @@
     ("Cosmetic"                   . lipstick)
     ("Tests"                      . rotating_light)
     ("Adding a test"              . white_check_mark)
+    ("Test data"                  . clipboard)
     ("General update"             . zap)
     ("Improve format/structure"   . art)
     ("Code tidying"               . art)
