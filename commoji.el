@@ -34,7 +34,11 @@
     ("Adding CI build system"     . construction_worker)
     ("Adding a dependency"        . heavy_plus_sign)
     ("Adding a test"              . white_check_mark)
+    ("Adding an Easter egg"       . egg)
+    ("Adding logs"                . loud_sound)
+    ("Adding/updating .gitignore" . see_no_evil)
     ("Analytics or tracking code" . chart_with_upwards_trend)
+    ("Architectural changes"      . building_construction)
     ("Bad code / need improv."    . hankey)
     ("Breaking changes"           . boom)
     ("Bugfix"                     . bug)
@@ -43,13 +47,16 @@
     ("Code tidying"               . art)
     ("Configuration files"        . wrench)
     ("Continuous Integration"     . green_heart)
+    ("Correcting/fixing typo"     . pencil)
     ("Cosmetic"                   . lipstick)
     ("Critical hotfix"            . ambulance)
+    ("Database work"              . card_file_box)
     ("Deploying stuff"            . rocket)
     ("Docker"                     . whale)
     ("Documentation"              . books)
     ("Documenting source code"    . bulb)
     ("Downgrading dependencies"   . arrow_down)
+    ("Experimenting"              . alembic)
     ("Fixing on Linux"            . penguin)
     ("Fixing on MacOS"            . apple)
     ("Fixing on Windows"          . checkered_flag)
@@ -59,11 +66,16 @@
     ("Lint"                       . shirt)
     ("Merging branches"           . twisted_rightwards_arrows)
     ("Metadata"                   . card_index)
+    ("Mocking"                    . clown_face)
+    ("Moving/renaming files"      . truck)
     ("New feature"                . sparkles)
     ("Performance"                . racehorse)
+    ("Pinning dependencies"       . pushpin)
     ("Refactor code"              . hammer)
     ("Removing a dependency"      . heavy_minus_sign)
     ("Removing code/files"        . fire)
+    ("Removing logs"              . mute)
+    ("Responsive design"          . iphone)
     ("Reverting changes"          . rewind)
     ("Security"                   . lock)
     ("Test data"                  . clipboard)
@@ -75,8 +87,11 @@
     ("Work in progress"           . construction))
   "List of commit descriptions and emoji that go with them.
 
-Originally based on
-https://gist.github.com/parmentf/035de27d6ed1dce0b36a")
+Originally based on:
+https://gist.github.com/parmentf/035de27d6ed1dce0b36a
+
+Further inspired by:
+https://gitmoji.carloscuesta.me/")
 
 ;;;###autoload
 (defun commoji (commit-type)
