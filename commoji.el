@@ -77,6 +77,7 @@
     ("Removing logs"              . mute)
     ("Responsive design"          . iphone)
     ("Reverting changes"          . rewind)
+    ("Screenshots"                . photo)
     ("Security"                   . lock)
     ("Test data"                  . clipboard)
     ("Tests"                      . rotating_light)
