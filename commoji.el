@@ -64,6 +64,7 @@
     ("Improve format/structure"   . art)
     ("Initial commit"             . tada)
     ("Lint"                       . shirt)
+    ("Makefile changes"           . factory)
     ("Merging branches"           . twisted_rightwards_arrows)
     ("Metadata"                   . card_index)
     ("Mocking"                    . clown_face)
