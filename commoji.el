@@ -57,6 +57,7 @@
     ("Documenting source code"    . bulb)
     ("Downgrading dependencies"   . arrow_down)
     ("Experimenting"              . alembic)
+    ("End of day saving"          . clock530)
     ("Fixing on Linux"            . penguin)
     ("Fixing on MacOS"            . apple)
     ("Fixing on Windows"          . checkered_flag)
