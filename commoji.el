@@ -83,6 +83,7 @@
     ("Security"                   . lock)
     ("Test data"                  . clipboard)
     ("Tests"                      . rotating_light)
+    ("Testing on the servers"     . 8ball)
     ("Text"                       . pencil)
     ("Translation"                . alien)
     ("Upgrading dependencies"     . arrow_up)
